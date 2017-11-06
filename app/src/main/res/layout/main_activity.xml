@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<TableLayout android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="User profile" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp"
+            android:text="Family Name:" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Smith"
+                android:ems="10" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="20dp"
+                android:text="Number of Family Members: " />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="4"
+                android:ems="10"  />
+
+        </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.11"
+                android:ems="10"
+                android:layout_marginLeft="20dp"
+                android:text="Total Voucher Balance:" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="$150.00"
+                 />
+        </TableRow>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:paddingTop="30px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.11"
+            android:paddingBottom="30px"
+
+            android:text="Grocery List: \n 4 apples, $1.00 each \n
+3 bananas, $2.00 each \n 2 pineapples, $5.00 \n 1 Christmas tree, $50.00"
+            android:ems="10"/>
+
+    </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.11"
+            android:layout_marginLeft="20dp"
+            android:text="How much of your voucher balance would you want to spend?  $12.00"
+
+            android:ems="10"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.11"
+        android:layout_marginLeft="20dp"
+        android:text="Remaining voucher balance: $138.00"
+        android:ems="100"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.11"
+        android:layout_marginLeft="20dp"
+        android:text="Total Bill: $58.00"
+        android:paddingTop="50px"
+        android:ems="100"/>
+
+
+    <Button
+        android:id="@+id/submitButton"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:elevation="24dp"
+        android:onClick="onSubmit"
+        android:text="Generate Voucher" />
+
+    <Button
+        android:id="@+id/qrButton"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:elevation="24dp"
+        android:onClick="onSubmit"
+        android:text="Retrieve Personalized QR" />
+
+
+    </TableLayout>
+
+
+
