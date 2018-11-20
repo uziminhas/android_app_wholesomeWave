@@ -1,4 +1,9 @@
-## J.P. Morgan - "Code for Good" 2017 Hackathon - WholesomeWave Android App
+## J.P. Morgan - 2017 "Code for Good" Hackathon - WholesomeWave Android App
+
+
+<p align="center">
+<img src="https://github.com/uziminhas/android_app_wholesomeWave/blob/master/open_screen.png" width="200"> <img src="https://github.com/uziminhas/android_app_wholesomeWave/blob/master/login_screen.png" width="197"> <img src="https://github.com/uziminhas/android_app_wholesomeWave/blob/master/physician_screen.png" width="199"> <img src="https://github.com/uziminhas/android_app_wholesomeWave/blob/master/user_screen.png" width="199">
+</p>
 
 ## Introduction
 
